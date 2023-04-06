@@ -51,6 +51,7 @@ const labelTimer = document.querySelector('.timer');
 
 const containerApp = document.querySelector('.app');
 const containerMovements = document.querySelector('.movements');
+const newUser = document.querySelector('.new__user');
 
 const btnLogin = document.querySelector('.login__btn');
 const btnTransfer = document.querySelector('.form__btn--transfer');
@@ -171,6 +172,7 @@ btnLogin.addEventListener('click', function (e) {
       currentUser.owner.split(' ')[0]
     }`;
     containerApp.style.opacity = 100;
+    newUser.style.opacity = 0;
 
     // updateUI
     updateUI(currentUser);
