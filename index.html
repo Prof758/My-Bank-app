@@ -35,6 +35,40 @@
         <button class="login__btn">&rarr;</button>
       </form>
     </nav>
+    <div class="new_user">
+      <div class="register__log">
+        <form class="form register__form" method="post" action="register.php">
+          <label for="firstname">First Name:</label>
+          <input
+            type="text"
+            id="firstname"
+            name="firstname"
+            required
+          /><br /><br />
+
+          <label for="lastname">Last Name:</label>
+          <input
+            type="text"
+            id="lastname"
+            name="lastname"
+            required
+          /><br /><br />
+
+          <label for="Pin">Pin:</label>
+          <input type="pin" id="pin" name="pin" required /><br /><br />
+
+          <label for="Interest">Interest:</label>
+          <input
+            type="text"
+            id="Interest"
+            name="Interest"
+            required
+          /><br /><br />
+
+          <input type="submit" value="Register" />
+        </form>
+      </div>
+    </div>
 
     <main class="app">
       <!-- BALANCE -->
